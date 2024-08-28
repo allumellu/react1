@@ -3,7 +3,7 @@ import About from "./pages/About";
 import Createaccount from "./pages/Create_account";
 import Signinaccount from "./pages/Signin_account";
 import "./Content.css";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function Content() {
   return (
