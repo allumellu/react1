@@ -1,9 +1,23 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
-function Header(){
+function Header() {
+  return (
+    <div className="Header">
+      <div>
+        <nav>
+          <div className="Headeralignment">
+            <Link to="/">Home</Link>
 
-    return(<div className="Header">
-        <div>This is Header</div>
-    </div>)
+            <Link to="/Createaccount">Createaccount</Link>
+
+            <Link to="/Signinaccount">Signinaccount</Link>
+
+            <Link to="/About">About</Link>
+          </div>
+        </nav>
+      </div>
+    </div>
+  );
 }
 export default Header;
